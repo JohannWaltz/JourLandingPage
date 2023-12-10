@@ -5,7 +5,7 @@ body {
 }
 
 header {
-    background-color: #8e44ad;
+    background-color: #000066;
     color: #fff;
     text-align: center;
     padding: 50px 0;
@@ -40,14 +40,14 @@ header h1 {
     display: inline-block;
     padding: 15px 30px;
     font-size: 16px;
-    background-color: #8e44ad;
+    background-color: #000066;
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
 }
 
 footer {
-    background-color: #f1c40f;
+    background-color: #ffc424;
     color: #fff;
     text-align: center;
     padding: 10px 0;
