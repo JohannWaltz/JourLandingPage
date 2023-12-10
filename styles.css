@@ -2,10 +2,13 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
+    background-image: url('lined-notebook-pages-893.jpg');
+    background-size: 2000px;
+    background-position: center;
 }
 
 header {
-    background-color: #000066;
+    background-color: #1A1051;
     color: #fff;
     text-align: center;
     padding: 50px 0;
@@ -17,13 +20,15 @@ header h1 {
 
 .features {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    padding: 50px 0;
+    padding: 50px 20px;
 }
 
 .feature {
     text-align: center;
+    margin: 20px;
 }
 
 .feature img {
@@ -33,22 +38,45 @@ header h1 {
 
 .cta {
     text-align: center;
-    padding: 50px 0;
+    padding: 50px 20px;
 }
 
 .button {
     display: inline-block;
     padding: 15px 30px;
     font-size: 16px;
-    background-color: #000066;
+    background-color: #1A1051;
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
 }
 
+.button:hover {
+    background-color: #D0335F;
+    transform: scale(1.1);
+}
+
 footer {
-    background-color: #ffc424;
+    background-color: #FFCE0A;
     color: #fff;
     text-align: center;
-    padding: 10px 0;
+    padding: 10px 20px;
+}
+
+@media screen and (max-width: 768px) {
+    header {
+        padding: 30px 0;
+    }
+
+    .features {
+        padding: 30px 10px;
+    }
+
+    .cta {
+        padding: 30px 10px;
+    }
+
+    footer {
+        padding: 10px 10px;
+    }
 }
