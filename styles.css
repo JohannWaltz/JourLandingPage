@@ -8,10 +8,10 @@ body {
 }
 
 header {
-    background-color: #1A1051;
-    color: #fff;
+    background-color: var(--azul);
+    color: var(--branco);
     text-align: center;
-    padding: 50px 0;
+    padding: 30px 0;
 }
 
 header h1 {
@@ -45,20 +45,20 @@ header h1 {
     display: inline-block;
     padding: 15px 30px;
     font-size: 16px;
-    background-color: #1A1051;
-    color: #fff;
+    background-color: var(--azul);
+    color: var(--branco);
     text-decoration: none;
     border-radius: 5px;
 }
 
 .button:hover {
-    background-color: #D0335F;
+    background-color: var(--rosa);
     transform: scale(1.1);
 }
 
 footer {
-    background-color: #FFCE0A;
-    color: #fff;
+    background-color: var(--amarelo);
+    color: var(--branco);
     text-align: center;
     padding: 10px 20px;
 }
@@ -79,4 +79,11 @@ footer {
     footer {
         padding: 10px 10px;
     }
+}
+
+:root{
+    --azul: #1A1051;
+    --rosa: #D0335F;
+    --amarelo: #FFCE0A;
+    --branco: #F4F4F4;
 }
